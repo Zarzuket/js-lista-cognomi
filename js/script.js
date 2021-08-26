@@ -7,7 +7,7 @@ var listaCognomi = ["Bianchi" , "Neri" , "Rossi" , "Verdi" , "Gialli"];
 
 var cognomeUtente = prompt("Inserisci il tuo cognome");
 
-cognomeUtente = cognomeUtente.toUpperCase() + cognomeUtente.substring(1);
+cognomeUtente = cognomeUtente.toUpperCase();
 listaCognomi.push(cognomeUtente);
 
 // console.log(listaCognomi);
